@@ -1,0 +1,85 @@
+unit uFilter;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Buttons;
+
+type
+  TfrmFilter = class(TForm)
+    Label1: TLabel;
+    edtFilter: TEdit;
+    btnClose: TBitBtn;
+    btnFilter: TBitBtn;
+    procedure btnFilterClick(Sender: TObject);
+    procedure btnCloseClick(Sender: TObject);
+    procedure edtFilterChange(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmFilter: TfrmFilter;
+
+implementation
+
+uses uMain;
+
+{$R *.dfm}
+
+procedure TfrmFilter.btnFilterClick(Sender: TObject);
+begin
+    with frmMain do
+    begin
+        with qryAcct do
+        begin
+            Close;
+            SQL.clear;
+            SQL.Add('Select * From tbluser');
+            SQL.Add('Where (upper(employeename) like :asemployeename) and activated=1');
+            SQL.Add('Order by employeename');
+            ParamByName('asemployeename').Value:= '%' + UpperCase( frmFilter.edtFilter.Text )+ '%';
+            Open;
+        end;
+    lblRecCount.Caption:= 'Record(s): ' + IntToStr(qryAcct.RecordCount);
+    //ShowMessage('Filter');
+    end;
+end;
+
+procedure TfrmFilter.btnCloseClick(Sender: TObject);
+begin
+     frmFilter.Close;
+end;
+
+procedure TfrmFilter.edtFilterChange(Sender: TObject);
+begin
+    btnFilter.Click;
+end;
+
+procedure TfrmFilter.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+    if (key = vk_return) then
+    begin
+    end;
+
+    if (key = vk_escape) then
+    begin
+        btnClose.Click;
+    end;
+end;
+
+procedure TfrmFilter.FormShow(Sender: TObject);
+begin
+    frmFilter.SetFocus;
+    frmFilter.edtFilter.SelectAll;
+    frmFilter.Refresh;
+end;
+
+end.

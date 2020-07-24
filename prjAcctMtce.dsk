@@ -1,0 +1,375 @@
+[Closed Files]
+File_0=SourceModule,'C:\Delphi Programs\AcctMtce\uRcgUserLogin.pas',0,1,104,32,109,1,0
+File_1=SourceModule,'D:\ff2\source\ffdb.pas',0,1,9770,39,9781,0,0
+File_2=SourceModule,'D:\ff2\source\ffllbase.pas',0,1,6365,1,6381,0,0
+File_3=SourceModule,'D:\ff2\source\ffdbbase.pas',0,1,331,1,344,0,0
+File_4=SourceModule,'D:\Delphi Programs\Lending\uReports.pas',0,1,440,9,448,1,0
+File_5=SourceModule,'D:\Delphi Programs\Lending\uMain.pas',0,1,179,1,183,1,0
+File_6=SourceModule,'D:\Delphi Programs\Lending\uLogin.pas',0,1,106,37,113,1,0
+File_7=SourceModule,'D:\Delphi Programs\Lending\uSystemSettings.pas',0,1,1,1,1,1,0
+File_8=SourceModule,'D:\Delphi Programs\Lending\uUserProfile.pas',0,1,54,5,63,1,0
+
+[Modules]
+Module0=C:\Delphi Programs\AcctMtce\uMain.pas
+Module1=C:\Delphi Programs\AcctMtce\uEdit.pas
+Module2=C:\Delphi Programs\AcctMtce\uRcgUser.pas
+Module3=C:\Delphi Programs\AcctMtce\uAdd.pas
+Module4=C:\Delphi Programs\AcctMtce\uFilter.pas
+Module5=C:\Delphi Programs\AcctMtce\uSelectServer.pas
+Module6=C:\Delphi Programs\AcctMtce\uInactive.pas
+Module7=C:\FF2\source\ffdb.pas
+Module8=C:\FF2\source\ffdbbase.pas
+Module9=C:\Delphi Programs\AcctMtce\prjAcctMtce.dpr
+Module10=C:\Delphi Programs\AcctMtce\uChangePassword.pas
+Count=11
+EditWindowCount=1
+
+[C:\Delphi Programs\AcctMtce\uMain.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\Delphi Programs\AcctMtce\uEdit.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Delphi Programs\AcctMtce\uRcgUser.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Delphi Programs\AcctMtce\uAdd.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Delphi Programs\AcctMtce\uFilter.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Delphi Programs\AcctMtce\uSelectServer.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Delphi Programs\AcctMtce\uInactive.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\FF2\source\ffdb.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\FF2\source\ffdbbase.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Delphi Programs\AcctMtce\prjAcctMtce.dpr]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Delphi Programs\AcctMtce\uChangePassword.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+ViewCount=11
+CurrentView=1
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=2
+Left=293
+Top=148
+Width=1073
+Height=485
+MaxLeft=-8
+MaxTop=107
+MaxWidth=1382
+MaxHeight=629
+ClientWidth=1366
+ClientHeight=590
+LeftPanelSize=140
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=168
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=0000040000000000560500000000000002A800000000000000010000000000000000000000000100000000560500000000000001000000005605000000000000010000000056050000000000000100000000560500000B0000004D65737361676556696577FFFFFFFF
+
+[View0]
+Module=C:\Delphi Programs\AcctMtce\uFilter.pas
+CursorX=1
+CursorY=38
+TopLine=36
+LeftCol=1
+
+[View1]
+Module=C:\Delphi Programs\AcctMtce\uMain.pas
+CursorX=14
+CursorY=300
+TopLine=288
+LeftCol=1
+
+[View2]
+Module=C:\Delphi Programs\AcctMtce\uSelectServer.pas
+CursorX=47
+CursorY=60
+TopLine=54
+LeftCol=1
+
+[View3]
+Module=C:\Delphi Programs\AcctMtce\uChangePassword.pas
+CursorX=14
+CursorY=61
+TopLine=79
+LeftCol=1
+
+[View4]
+Module=C:\Delphi Programs\AcctMtce\prjAcctMtce.dpr
+CursorX=1
+CursorY=16
+TopLine=12
+LeftCol=1
+
+[View5]
+Module=C:\Delphi Programs\AcctMtce\uRcgUser.pas
+CursorX=33
+CursorY=95
+TopLine=80
+LeftCol=1
+
+[View6]
+Module=C:\FF2\source\ffdbbase.pas
+CursorX=100
+CursorY=326
+TopLine=310
+LeftCol=1
+
+[View7]
+Module=C:\Delphi Programs\AcctMtce\uEdit.pas
+CursorX=68
+CursorY=168
+TopLine=168
+LeftCol=1
+
+[View8]
+Module=C:\Delphi Programs\AcctMtce\uInactive.pas
+CursorX=5
+CursorY=134
+TopLine=130
+LeftCol=1
+
+[View9]
+Module=C:\Delphi Programs\AcctMtce\uAdd.pas
+CursorX=9
+CursorY=121
+TopLine=105
+LeftCol=1
+
+[View10]
+Module=C:\FF2\source\ffdb.pas
+CursorX=1
+CursorY=6144
+TopLine=6134
+LeftCol=1
+
+[Watches]
+Count=0
+
+[WatchWindow]
+WatchColumnWidth=100
+WatchShowColumnHeaders=1
+Create=1
+Visible=0
+State=0
+Left=885
+Top=172
+Width=270
+Height=218
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=254
+ClientHeight=179
+TBDockHeight=157
+LRDockWidth=270
+Dockable=1
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=2
+Left=8
+Top=0
+Width=1358
+Height=123
+MaxLeft=-1
+MaxTop=-1
+MaxWidth=1382
+MaxHeight=123
+ClientWidth=1366
+ClientHeight=84
+
+[ProjectManager]
+Create=1
+Visible=0
+State=0
+Left=369
+Top=372
+Width=446
+Height=313
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=430
+ClientHeight=274
+TBDockHeight=313
+LRDockWidth=446
+Dockable=1
+
+[CPUWindow]
+Create=1
+Visible=0
+State=0
+Left=107
+Top=106
+Width=1066
+Height=588
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1050
+ClientHeight=549
+DumpPane=79
+DisassemblyPane=187
+RegisterPane=231
+FlagPane=64
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=124
+Width=156
+Height=89
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=-4
+Top=102
+Width=237
+Height=620
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=221
+ClientHeight=581
+TBDockHeight=375
+LRDockWidth=190
+Dockable=0
+SplitPos=99
+ArrangeBy=Name
+SelectedItem=Width
+ExpandedItems=Anchors,BorderIcons,Font,Font.Style,Options,OptionsEx,ServerEngine,SystemOptions,SystemPreview,SystemSetups,Title,Title.Font.Style,TitleFont,TitleFont.Style
+HiddenCategories=
+
+[CallStackWindow]
+Create=1
+Visible=0
+State=0
+Left=493
+Top=319
+Width=294
+Height=161
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=278
+ClientHeight=122
+TBDockHeight=161
+LRDockWidth=294
+Dockable=1
+
+[ObjectTree]
+Create=1
+Visible=0
+State=0
+Left=0
+Top=122
+Width=190
+Height=254
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=174
+ClientHeight=215
+TBDockHeight=254
+LRDockWidth=190
+Dockable=1
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=12
+Width=140
+Height=407
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=140
+ClientHeight=407
+TBDockHeight=305
+LRDockWidth=140
+Dockable=1
+
+[MessageView@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=12
+Top=0
+Width=1354
+Height=168
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1354
+ClientHeight=168
+TBDockHeight=168
+LRDockWidth=443
+Dockable=1
+
+[DockHosts]
+DockHostCount=0
+
